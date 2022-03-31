@@ -1,0 +1,126 @@
+html{
+    min-height: 100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+}
+.logo-text{
+    font-size: 24px;
+    color: #f9faf8;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.hero-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    background-color: #1f2937;
+    margin-bottom: 24px;
+    padding: 50px 0;
+}
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.hero-text p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button{
+    background-color: #254038 ;
+    padding: 5px 10px;
+    border: 2px solid #e5e7eb;
+    border-radius: 5px;
+    color: #e5e7eb;
+
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+.images{
+    display: flex;
+    gap: 50px;
+    padding: 10px 100px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.images img{
+    border: 5px solid #254038 ;
+    border-radius: 10px;
+}
+.Quote{
+    background-color: #e5e7eb;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: auto;
+    padding: 2em 5em;
+}
+blockquote p{
+    font-size: 36px;
+    padding: 15px;
+    font-style: italic;
+    color: #254038;
+}
+figcaption{
+    display: flex;
+    justify-content: end;
+    flex: auto
+}
+.Lsection{
+    padding: 5fr;
+    background-color: white ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 120px ;
+}
+.call-action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    background-color: #254038;
+    padding: 30px 30px;
+    color: #e5e7eb;
+    flex: auto;
+}
+.footer{
+    background-color: #1f2937;
+    height: 50px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-action button{
+    height: 30px;
+    width: 100px;
+}
+

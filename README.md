@@ -1,1 +1,2 @@
 # LandingPage
+The Odin Projects' landing page project. I'm not the most creative person but the prospect of web development is really fascinating. I hope to portray all I have learned so far about HTML and CSS. Flexbox will be the big point of focus in this project.
