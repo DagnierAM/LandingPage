@@ -11,18 +11,24 @@ body{
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding-left: 20px;
 }
-.logo-text{
-    font-size: 24px;
-    color: #f9faf8;
+.logo{
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
+    padding: 25px;
+}
+.logo img{
+    border-radius: 100px;
 }
 ul{
     list-style: none;
     display: flex;
     gap: 40px;
     padding-right: 20px;
+
 }
 a{
     text-decoration: none;
@@ -31,12 +37,13 @@ a{
 }
 .hero-header{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     gap: 150px;
     background-color: #1f2937;
     margin-bottom: 24px;
-    padding: 50px 0;
+    padding: 50px 50px;
+    max-width: 100%;
 }
 h1{
     font-size: 48px;
@@ -75,7 +82,14 @@ button{
 }
 .images img{
     border: 5px solid #254038 ;
-    border-radius: 10px;
+    border-radius: 25px;
+    height: 150px;
+    width: 180px;
+    object-fit: cover;
+    
+}
+img{
+    max-width: 100%;
 }
 .Quote{
     background-color: #e5e7eb;
@@ -127,4 +141,15 @@ figcaption{
     height: 30px;
     width: 100px;
 }
+.call-action p strong{
+    font-size: 24px;
+}
 
+.image-info p{
+    text-align: center;
+}
+.hero-header img{
+    width: 600px;
+    border-radius: 25px;
+    border: 5px solid #254038 ;
+}
